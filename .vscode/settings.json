@@ -1,3 +1,12 @@
 {
-  "python.defaultInterpreterPath": "${workspaceDir}/.venv/bin/python"
+  "python.testing.pytestArgs": ["test"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.indexing": true,
+  "python.analysis.autoImportCompletions": true,
+  "notebook.defaultFormatter": "ms-python.black-formatter",
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "strict",
+  "python.defaultInterpreterPath": "${workspaceDir}/.venv/bin/python",
+  "python.envFile": "${workspaceFolder}/.venv"
 }
